@@ -31,15 +31,25 @@ class VoiceMessageTest {
     }
 
     // Dynamic ArrayList
-    // ArrayList<Data Type> = varName = new ArrayList<Data Type>();
+    // ArrayList<Data Type> varName = new ArrayList<Data Type>();
     ArrayList<String> messageArrayList = new ArrayList<String>();
     messageArrayList.add("Finish Alfred bot");
     messageArrayList.add("Finish Cafe Business Logic");
     messageArrayList.add("Read ahead for OOP");
 
-    alexMachine.printMessages1(messageArrayList);
+    alexMachine.printMessages(messageArrayList);
 
     // type casting
+    int days = 7;
+    double cast = 10.01; // days * cost
+
+    // no loss of data in conversion: implicit casting
+    double totalCost = days * cost; // cost: double; day: int 7 -> double 7.00
+
+    // loss of data in conversion: explicit casting
+
+    int roundedTotalCost = days * (int) cost; // day: int ; cost: double -> int;     10.01 -> 10
+    System.out.println(roundedTotalCost);
 
     
 }
