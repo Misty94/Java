@@ -9,6 +9,10 @@ public class Mammal {
 		this.energyLevel = 100;
 	}
 	
+	public Mammal(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
+	
 	// other methods
 	public int displayEnergy() {
 		System.out.println("Energy Level: " + this.energyLevel);
