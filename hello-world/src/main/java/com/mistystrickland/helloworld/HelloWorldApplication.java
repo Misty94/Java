@@ -2,6 +2,10 @@ package com.mistystrickland.helloworld;
 
 import java.util.ArrayList;
 
+import org.springframework.boot.SpringApplication;
+
+//import java.util.ArrayList;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloWorldApplication {
 
-//	public static void main(String[] args) {
-//		SpringApplication.run(HelloWorldApplication.class, args);
-//	}
+	public static void main(String[] args) {
+		SpringApplication.run(HelloWorldApplication.class, args);
+	}
 //	
 //	@RequestMapping("/hello")
 //	public String hello() {

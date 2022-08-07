@@ -36,6 +36,7 @@
     <c:forEach var="person" items="${people}">
     	<c:out value="${person.name}"/>
 	</c:forEach>
+	
     
 </body>
 </html>
