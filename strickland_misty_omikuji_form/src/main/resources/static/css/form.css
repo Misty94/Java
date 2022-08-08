@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1{
+	width: 350px;
+	margin: 0px auto;
+}
+
+form{
+	margin: 15px auto;
+	width: 500px;
+	border: 20px double gray;
+	padding: 15px;
+	font-weight: 550;
+}
+
+label, input, select, textarea, button{
+	display: block;
+}
+
+input, select, textarea{
+	border: 1px solid black;
+}
+
+button{
+	padding: 5px;
+	background-color: slateblue;
+	color: snow;
+}
+
+label{
+	margin: 5px 0px;
+}
+
+p{
+	font-style: italic;
+	padding-top: 5px;
+}
