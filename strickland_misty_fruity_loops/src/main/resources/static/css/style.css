@@ -15,4 +15,5 @@ h1{
 	background-color: plum;
 	margin: 15px auto;
 	width: 500px;
+	border: 20px double gray;
 }

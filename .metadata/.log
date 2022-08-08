@@ -9367,3 +9367,654 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.015
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.190
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.472
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.493
+!MESSAGE buffering callback sts4.classpath.PWyysXuK inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.494
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.496
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.528
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.529
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.530
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.532
+!MESSAGE buffering callback sts4.classpath.PWyysXuK inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.533
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.534
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.536
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.538
+!MESSAGE buffering callback sts4.classpath.PWyysXuK inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.540
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.541
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.543
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.544
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs inheritance-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.613
+!MESSAGE executing callback sts4.classpath.HIGKAIjP 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.614
+!MESSAGE executing callback sts4.classpath.RvtIAyfs 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:34.615
+!MESSAGE executing callback sts4.classpath.PWyysXuK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:35.264
+!MESSAGE executing callback sts4.classpath.PWyysXuK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:35.265
+!MESSAGE executing callback sts4.classpath.HIGKAIjP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:25:35.303
+!MESSAGE No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:25:35.364
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:25:37.933
+!MESSAGE executing callback sts4.classpath.RvtIAyfs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:25:37.935
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.071
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.072
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.286
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.287
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.288
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.289
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.290
+!MESSAGE buffering callback sts4.classpath.PWyysXuK hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.291
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.485
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.486
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.488
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.489
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.490
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.491
+!MESSAGE executing callback sts4.classpath.HIGKAIjP 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.493
+!MESSAGE buffering callback sts4.classpath.PWyysXuK hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.494
+!MESSAGE executing callback sts4.classpath.HIGKAIjP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.495
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:00.497
+!MESSAGE No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.498
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.499
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.500
+!MESSAGE buffering callback sts4.classpath.PWyysXuK hello-world true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.501
+!MESSAGE executing callback sts4.classpath.RvtIAyfs 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.502
+!MESSAGE executing callback sts4.classpath.PWyysXuK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:00.503
+!MESSAGE executing callback sts4.classpath.PWyysXuK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:00.505
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:06.969
+!MESSAGE executing callback sts4.classpath.RvtIAyfs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:06.971
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-08 12:26:07.571
+!MESSAGE Resource '/hello-world/pom.xml' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/hello-world/pom.xml)[368]: java.lang.Exception: Resource '/hello-world/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:810)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:251)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacades(ProjectRegistryManager.java:702)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$4(ProjectRegistryRefreshJob.java:140)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1411)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:139)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-08-08 12:26:07.572
+!MESSAGE Resource '/hello-world/pom.xml' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/hello-world/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:810)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:251)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacades(ProjectRegistryManager.java:702)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$4(ProjectRegistryRefreshJob.java:140)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1411)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:139)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.480
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.481
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.483
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.484
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.486
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.488
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.490
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.491
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.492
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.494
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.495
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.504
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.505
+!MESSAGE executing callback sts4.classpath.HIGKAIjP 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.510
+!MESSAGE executing callback sts4.classpath.HIGKAIjP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.511
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:16.512
+!MESSAGE No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.514
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.515
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.517
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.518
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.519
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_CareSoft_Interfaces true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.520
+!MESSAGE executing callback sts4.classpath.RvtIAyfs 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.522
+!MESSAGE executing callback sts4.classpath.PWyysXuK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:16.523
+!MESSAGE executing callback sts4.classpath.PWyysXuK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:16.524
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:17.622
+!MESSAGE executing callback sts4.classpath.RvtIAyfs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.757
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.758
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.760
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.762
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.764
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.765
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.766
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.768
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.770
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.771
+!MESSAGE executing callback sts4.classpath.RvtIAyfs 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.773
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.774
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.777
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.779
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.780
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.781
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.782
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.784
+!MESSAGE buffering callback sts4.classpath.PWyysXuK Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.785
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP Strickland_Misty_ZooKeeper true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.805
+!MESSAGE executing callback sts4.classpath.HIGKAIjP 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.838
+!MESSAGE executing callback sts4.classpath.HIGKAIjP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.839
+!MESSAGE executing callback sts4.classpath.PWyysXuK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:39.841
+!MESSAGE No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.909
+!MESSAGE executing callback sts4.classpath.RvtIAyfs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:26:39.911
+!MESSAGE executing callback sts4.classpath.PWyysXuK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:26:39.912
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.147
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.148
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.150
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.152
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.154
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.156
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.157
+!MESSAGE buffering callback sts4.classpath.PWyysXuK strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.158
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.160
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.162
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.163
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.164
+!MESSAGE buffering callback sts4.classpath.PWyysXuK strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.166
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.168
+!MESSAGE buffering callback sts4.classpath.PWyysXuK strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.172
+!MESSAGE executing callback sts4.classpath.PWyysXuK 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.174
+!MESSAGE executing callback sts4.classpath.PWyysXuK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:27:10.175
+!MESSAGE No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.PWyysXuK'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.182
+!MESSAGE buffering callback sts4.classpath.HIGKAIjP strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.183
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.184
+!MESSAGE executing callback sts4.classpath.HIGKAIjP 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.187
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.188
+!MESSAGE executing callback sts4.classpath.HIGKAIjP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.189
+!MESSAGE buffering callback sts4.classpath.RvtIAyfs strickland_misty_daikichi true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-08 12:27:10.191
+!MESSAGE No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.HIGKAIjP'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.192
+!MESSAGE executing callback sts4.classpath.RvtIAyfs 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 12:27:10.259
+!MESSAGE executing callback sts4.classpath.RvtIAyfs SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-08 13:40:36.549
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-08 13:50:49.985
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:87)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-08-08 14:12:36.261
+!MESSAGE Execution exception for: ParameterizedCommand(Command(AnsiConsole.command.copy_without_escapes,Copy text without escapes,
+		Copy the console content to clipboard, removing the escape sequences,
+		Category(AnsiConsole.command.categoryid,Ansi Console Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e1c553,
+		,,true),null) in 
+	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (org.eclipse.jdt.ui.JavaPerspective) Context -> PartImpl (org.eclipse.ui.console.ConsoleView) Context -> PageSite
+!STACK 0
+org.eclipse.core.commands.ExecutionException: Error executing 'AnsiConsole.command.copy_without_escapes': java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:170)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1542)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4868)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	... 44 more
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.dnd.DND.error(DND.java:296)
+	at org.eclipse.swt.dnd.DND.error(DND.java:241)
+	at org.eclipse.swt.dnd.Clipboard.setContents(Clipboard.java:500)
+	at org.eclipse.swt.dnd.Clipboard.setContents(Clipboard.java:435)
+	at mnita.ansiconsole.utils.AnsiClipboardUtils.textToClipboard(AnsiClipboardUtils.java:61)
+	at mnita.ansiconsole.commands.CopyWithoutEscapesHandler.execute(CopyWithoutEscapesHandler.java:25)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 48 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 14:13:17.740
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RvtIAyfs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 14:13:17.742
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RvtIAyfs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 14:13:17.744
+!MESSAGE subsribers = {sts4.classpath.PWyysXuK=Send Classpath Notifications(1507), sts4.classpath.HIGKAIjP=Send Classpath Notifications(245)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-08 14:13:17.745
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RvtIAyfs => OK
