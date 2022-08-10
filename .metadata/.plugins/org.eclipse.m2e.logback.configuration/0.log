@@ -3720,3 +3720,668 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-08-09 20:57:16,284 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-09 20:57:16,284 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-08-09 20:57:16,284 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_books\src\test\resources
+2022-08-09 21:09:59,615 [Worker-114: Updating Maven Dependencies] ERROR o.e.m.c.i.p.r.ProjectRegistryRefreshJob - Resource '/strickland_misty_books/pom.xml' does not exist.
+org.eclipse.core.internal.resources.ResourceException: Resource '/strickland_misty_books/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:810)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:251)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacades(ProjectRegistryManager.java:702)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$4(ProjectRegistryRefreshJob.java:140)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1411)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:139)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: Resource '/strickland_misty_books/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 20 common frames omitted
+2022-08-10 13:31:57,445 [Worker-120: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mistystrickland.savetravels:strickland_misty_save_travels:0.0.1-SNAPSHOT @ C:\Users\Misty\Desktop\java\strickland_misty_save_travels\pom.xml.
+2022-08-10 13:32:24,405 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strickland_misty_save_travels/src/main/java
+2022-08-10 13:32:24,406 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strickland_misty_save_travels/src/main/resources
+2022-08-10 13:32:24,450 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strickland_misty_save_travels/src/main/resources
+2022-08-10 13:32:24,527 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strickland_misty_save_travels/src/test/java
+2022-08-10 13:32:48,665 [Worker-120: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 65 sec
+2022-08-10 13:32:48,667 [Worker-120: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-10 13:32:49,565 [Worker-120: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mistystrickland.savetravels:strickland_misty_save_travels:0.0.1-SNAPSHOT @ C:\Users\Misty\Desktop\java\strickland_misty_save_travels\pom.xml.
+2022-08-10 13:33:05,548 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strickland_misty_save_travels/src/main/java
+2022-08-10 13:33:05,548 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strickland_misty_save_travels/src/main/resources
+2022-08-10 13:33:05,549 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strickland_misty_save_travels/src/main/resources
+2022-08-10 13:33:05,551 [Worker-120: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strickland_misty_save_travels/src/test/java
+2022-08-10 13:33:22,272 [Worker-120: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for strickland_misty_save_travels
+2022-08-10 13:33:23,099 [Worker-120: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 34 sec
+2022-08-10 13:33:42,909 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:33:42,910 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:33:42,911 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:33:43,812 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:33:43,818 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:33:43,819 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:33:43,819 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:33:43,820 [Worker-120: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of strickland_misty_save_travels
+2022-08-10 13:33:43,820 [Worker-120: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for strickland_misty_save_travels
+2022-08-10 13:33:43,831 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:33:43,831 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:38:45,188 [Worker-127: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mistystrickland.savetravels:strickland_misty_save_travels:0.0.1-SNAPSHOT @ C:\Users\Misty\Desktop\java\strickland_misty_save_travels\pom.xml.
+2022-08-10 13:39:08,890 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:39:08,891 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:39:08,910 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:39:08,911 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:39:08,916 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:39:08,917 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:39:08,917 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:39:08,917 [Worker-127: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of strickland_misty_save_travels
+2022-08-10 13:39:08,917 [Worker-127: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for strickland_misty_save_travels
+2022-08-10 13:39:08,974 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:39:08,974 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:39:12,106 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:39:12,106 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:39:12,111 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:39:12,159 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:39:12,163 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:39:12,163 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:39:12,168 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:40:41,403 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:40:41,404 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:40:41,405 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:40:42,462 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:40:42,464 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:40:42,464 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:40:42,465 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:41:14,845 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:14,845 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:14,848 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:41:16,013 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:41:16,016 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:16,016 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:16,016 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:41:34,276 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:34,276 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:34,280 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:41:34,485 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:41:34,489 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:34,490 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:34,490 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:41:51,825 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:51,825 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:51,828 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:41:52,298 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:41:52,301 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:41:52,301 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:41:52,302 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:42:03,415 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:42:03,416 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:42:03,420 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:42:03,619 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:42:03,622 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:42:03,623 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:42:03,623 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 13:44:02,002 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:44:02,002 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:44:02,006 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 13:44:03,234 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 13:44:03,237 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 13:44:03,237 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 13:44:03,238 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:12:16,703 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:12:16,704 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:12:16,707 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:12:18,102 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:12:18,106 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:12:18,107 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:12:18,107 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:14:20,013 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:14:20,013 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:14:20,014 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:14:20,143 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:14:20,147 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:14:20,147 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:14:20,148 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:18:38,668 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:18:38,668 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:18:38,670 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:18:38,671 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:18:38,675 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:18:38,675 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:18:38,676 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:19:21,266 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:19:21,266 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:19:21,266 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:19:21,267 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:19:21,269 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:19:21,269 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:19:21,269 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:22:08,188 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:22:08,189 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:22:08,189 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:22:08,190 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:22:08,195 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:22:08,195 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:22:08,195 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:25:00,881 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:25:00,882 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:25:00,883 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:25:00,883 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:25:00,885 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:25:00,886 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:25:00,886 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:25:54,883 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:25:54,884 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:25:54,888 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:25:54,979 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:25:54,983 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:25:54,983 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:25:54,984 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:27:49,152 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:27:49,152 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:27:49,155 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:27:49,868 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:27:49,872 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:27:49,872 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:27:49,872 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:29:10,807 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:29:10,808 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:29:10,809 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:29:10,810 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:29:10,816 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:29:10,816 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:29:10,816 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:29:55,198 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:29:55,198 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:29:55,199 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:29:55,202 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:29:55,243 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:29:55,243 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:29:55,244 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:32:11,085 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:32:11,085 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:32:11,086 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:32:11,087 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:32:11,089 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:32:11,089 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:32:11,090 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:32:42,503 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:32:42,503 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:32:42,504 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:32:42,504 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:32:42,516 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:32:42,516 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:32:42,517 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:33:32,503 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:33:32,503 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:33:32,504 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:33:32,505 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:33:32,508 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:33:32,508 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:33:32,508 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:34:07,292 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:34:07,292 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:34:07,293 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:34:07,294 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:34:07,297 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:34:07,297 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:34:07,298 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:38:00,489 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:38:00,491 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:38:00,492 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:38:00,493 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:38:00,500 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:38:00,500 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:38:00,500 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:41:07,567 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:41:07,568 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:41:07,569 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:41:07,569 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:41:07,573 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:41:07,573 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:41:07,573 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:46:08,291 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:46:08,292 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:46:08,292 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:46:08,293 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:46:08,295 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:46:08,295 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:46:08,296 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:46:29,983 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:46:29,983 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:46:29,984 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:46:29,984 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:46:29,994 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:46:29,995 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:46:29,995 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:47:23,103 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:47:23,103 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:47:23,104 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:47:23,105 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:47:23,117 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:47:23,117 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:47:23,117 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:47:31,801 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:47:31,801 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:47:31,802 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:47:31,803 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:47:31,813 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:47:31,813 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:47:31,814 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:48:11,513 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:48:11,514 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:48:11,515 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:48:11,515 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:48:11,525 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:48:11,525 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:48:11,526 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:49:32,601 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:49:32,602 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:49:32,603 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:49:32,604 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:49:32,615 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:49:32,616 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:49:32,616 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:51:15,783 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:51:15,783 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:51:15,784 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:51:15,786 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:51:15,792 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:51:15,792 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:51:15,793 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:52:08,213 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:08,213 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:08,214 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:52:08,215 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:52:08,218 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:08,219 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:08,219 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:52:24,588 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:24,588 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:24,589 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:52:24,590 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:52:24,604 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:24,604 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:24,605 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:52:44,881 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:44,881 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:44,882 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:52:44,883 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:52:44,893 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:44,893 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:44,893 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:52:57,227 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:57,227 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:57,227 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:52:57,228 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:52:57,236 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:52:57,236 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:52:57,236 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:53:04,672 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:04,672 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:04,673 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:53:04,674 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:53:04,685 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:04,685 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:04,685 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:53:13,662 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:13,662 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:13,663 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:53:13,677 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:53:13,688 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:13,688 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:13,689 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:53:56,818 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:56,819 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:56,819 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:53:56,820 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:53:56,822 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:53:56,822 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:53:56,823 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:54:06,467 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:06,468 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:06,468 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:06,469 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:06,472 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:06,472 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:06,472 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:54:16,066 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:16,067 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:16,067 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:16,068 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:16,071 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:16,071 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:16,071 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:54:29,580 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:29,581 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:29,581 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:29,582 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:54:29,592 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:29,592 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:29,592 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:54:41,855 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:41,855 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:41,858 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:41,859 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:54:41,869 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:41,870 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:41,870 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:54:51,405 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:51,405 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:51,406 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:54:51,407 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:54:51,417 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:54:51,417 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:54:51,417 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:55:27,240 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:27,240 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:27,241 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:55:27,241 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:55:27,249 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:27,249 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:27,249 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:55:33,869 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:33,869 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:33,870 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:55:33,871 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:55:33,884 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:33,884 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:33,884 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:55:42,699 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:42,699 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:42,700 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:55:42,701 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:55:42,703 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:42,703 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:42,704 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:55:55,688 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:55,689 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:55,690 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:55:55,691 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:55:55,706 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:55:55,706 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:55:55,706 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:56:06,935 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:06,936 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:06,937 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:56:06,938 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:56:06,957 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:06,957 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:06,958 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:56:12,731 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:12,732 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:12,732 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:56:12,734 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:56:12,748 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:12,749 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:12,749 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:56:26,394 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:26,394 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:26,395 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:56:26,396 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:56:26,406 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:26,406 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:26,407 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:56:32,684 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:32,685 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:32,685 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:56:32,686 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:56:32,696 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:32,697 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:32,697 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:56:38,541 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:38,542 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:38,543 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 14:56:38,543 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:56:38,553 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:56:38,553 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:56:38,554 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 14:57:49,394 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:57:49,394 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:57:49,398 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:57:49,407 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 14:57:51,133 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 14:57:51,134 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 14:57:51,134 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:00:14,876 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:00:14,876 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:00:14,880 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:00:15,224 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:00:15,230 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:00:15,230 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:00:15,230 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:00:41,927 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:00:41,928 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:00:41,932 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:00:42,222 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:00:42,228 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:00:42,229 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:00:42,229 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:06:23,058 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:06:23,058 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:06:23,066 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:06:24,385 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:06:24,388 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:06:24,390 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:06:24,390 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:15:03,356 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:15:03,356 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:15:03,359 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:15:03,473 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:15:03,573 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:15:03,573 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:15:03,573 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:18:04,941 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:18:04,942 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:18:04,946 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:18:05,819 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:18:05,824 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:18:05,824 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:18:05,825 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:34:20,370 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:34:20,370 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:34:20,373 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:34:20,818 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 15:34:20,822 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:34:20,822 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:34:20,823 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:35:30,422 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:35:30,422 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:35:30,423 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:35:30,424 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:35:30,427 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:35:30,427 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:35:30,428 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:46:39,431 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:46:39,432 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:46:39,432 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:46:39,433 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:46:39,435 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:46:39,436 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:46:39,436 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:51:50,330 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:51:50,330 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:51:50,331 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:51:50,333 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:51:50,336 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:51:50,336 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:51:50,337 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 15:52:23,820 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:52:23,821 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:52:23,823 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:52:23,824 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 15:52:23,859 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 15:52:23,859 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 15:52:23,859 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:16:36,207 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:16:36,209 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:16:36,212 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 16:16:36,213 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 16:16:36,217 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:16:36,217 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:16:36,218 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:17:49,700 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:17:49,701 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:17:49,706 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:17:50,256 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:17:50,260 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:17:50,261 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:17:50,261 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:19:12,573 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:19:12,573 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:19:12,577 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:19:12,593 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:19:12,598 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:19:12,598 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:19:12,599 [Worker-192: Launching strickland_misty_save_travels - StricklandMistySaveTravelsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:21:30,778 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:21:30,779 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:21:30,782 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:21:30,890 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:21:30,896 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:21:30,896 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:21:30,896 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:22:45,217 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:22:45,218 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:22:45,223 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:22:46,629 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:22:46,644 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:22:46,644 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:22:46,645 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:34:28,714 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:34:28,714 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:34:28,717 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:34:28,766 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:34:28,771 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:34:28,771 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:34:28,772 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:34:49,405 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:34:49,405 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:34:49,409 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:34:49,462 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:34:49,467 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:34:49,468 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:34:49,468 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 16:35:25,350 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:35:25,363 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:35:25,368 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:35:25,511 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 16:35:25,556 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 16:35:25,557 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 16:35:25,557 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:17:33,646 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:17:33,728 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:17:33,793 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:17:33,871 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:17:34,083 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:17:34,083 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:17:34,083 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:18:00,905 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:18:00,905 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:18:00,995 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:18:01,321 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:18:01,372 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:18:01,373 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:18:01,373 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:21:34,184 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:21:34,185 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:21:34,188 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:21:34,286 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:21:34,291 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:21:34,291 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:21:34,291 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:22:23,011 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:22:23,012 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:22:23,015 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:22:23,055 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:22:23,059 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:22:23,059 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:22:23,060 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:24:11,197 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:24:11,198 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:24:11,201 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:24:11,348 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:24:11,353 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:24:11,353 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:24:11,353 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:26:26,161 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:26:26,161 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:26:26,162 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:26:26,163 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:26:26,167 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:26:26,167 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:26:26,167 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:34:39,050 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:34:39,050 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:34:39,052 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:34:41,003 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:34:41,010 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:34:41,010 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:34:41,011 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:35:40,041 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:35:40,042 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:35:40,043 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:35:40,044 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:35:40,352 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:35:40,352 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:35:40,352 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:36:01,097 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:36:01,097 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:36:01,100 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:36:01,101 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:36:01,103 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:36:01,103 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:36:01,104 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:36:18,982 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:36:18,982 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:36:18,983 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:36:18,983 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:36:18,986 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:36:18,987 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:36:18,987 [Worker-221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:37:41,180 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:37:41,180 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:37:41,181 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:37:41,182 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:37:41,185 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:37:41,185 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:37:41,186 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:48:12,872 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:48:12,873 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:48:12,873 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:48:12,874 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:48:12,878 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:48:12,878 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:48:12,878 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 17:49:18,287 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:49:18,287 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:49:18,312 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 17:49:20,546 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 17:49:20,549 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 17:49:20,550 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 17:49:20,550 [Worker-227: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 18:12:19,904 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:12:19,905 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:12:19,905 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 18:12:19,906 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 18:12:20,037 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:12:20,037 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:12:20,038 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 18:13:07,856 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:13:07,856 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:13:07,858 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 18:13:07,859 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 18:13:08,004 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:13:08,004 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:13:08,005 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
+2022-08-10 18:13:59,551 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:13:59,551 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:13:59,552 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 18:13:59,552 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 18:13:59,789 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 18:13:59,789 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 18:13:59,789 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_save_travels\src\test\resources
