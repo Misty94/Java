@@ -1,5 +1,7 @@
 package com.mistystrickland.books.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,5 +27,18 @@ public class BookController {
 		model.addAttribute("oneBook", oneBook);
 		
 		return "show.jsp";
+	}
+	
+	@GetMapping("/books")
+	public String allBooks(Model model) {
+		
+		// Get the list of all books from the service (database)
+		List<Book> allBooks = bookService.allBooks();
+		
+		// Add the list to the jsp (Model model)
+		model.addAttribute("allBooks", allBooks);
+		
+		return "books.jsp";
+		
 	}
 }

@@ -31,7 +31,7 @@ public class BooksApi {
 	
 	// Create
 	@PostMapping("/books")
-	public Book create(@RequestParam(value="title") String title, @RequestParam(value="description") String desc, @RequestParam(value="language") String lang, @RequestParam(value="pages") Integer 	numOfPages) {
+	public Book create(@RequestParam(value="title") String title, @RequestParam(value="description") String desc, @RequestParam(value="language") String lang, @RequestParam(value="pages") Integer numOfPages) {
 		Book newBook = new Book(title, desc, lang, numOfPages);
 		return bookService.createBook(newBook);
 	}
