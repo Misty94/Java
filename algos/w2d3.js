@@ -36,23 +36,45 @@ class BSTNode { // TreeNode , node
      * @returns {BinarySearchTree} This tree.
      */
     insert(newVal) {
-        var current = this.root;
-        console.log(current);
-        while (newVal > current.data){
-            if (current.right == null){
-                current.right = newVal;
-                break;
-            }
-            current = current.right;
+        var node = new BSTNode(newVal);
+        var runner = this.root;
+        if (!runner){
+            this.root = node;
         }
-        while (newVal < current.data){
-            if (current.left == null){
-                current.left = newVal;
-                break;
+        while (runner){ // while there is a runner (while it doesn't equal null)
+            if (runner.data < newVal){ 
+                if (!runner.right){
+                    runner.right = node;
+                    return;
+                }
+                runner = runner.right;
+                continue // this means you can skip the rest of the while loop and go back to the start of the while loop for this turn
             }
-            current = current.left;
+            else if (runner.data > newVal){
+                if (!runner.left){
+                    runner.left = node;
+                    return;
+                }
+                runner = runner.left;
+                continue
+            }
+            else if (runner.data === newVal) return null;
         }
-        return BinarySearchTree;
+        // while (node.data > current.data){
+        //     if (current.right == null){
+        //         current.right = node;
+        //         break;
+        //     }
+        //     current = this.root.right;
+        // }
+        // while (node.data < current.data){
+        //     if (current.left == null){
+        //         current.left = node;
+        //         break;
+        //     }
+        //     current = current.left;
+        // }
+        // return BinarySearchTree;
     }
     
     /**
@@ -65,7 +87,26 @@ class BSTNode { // TreeNode , node
      *    the tree is being traversed.
      * @returns {BinarySearchTree} This tree.
      */
-    insertRecursive(newVal, curr = this.root) {}
+    insertRecursive(newVal, curr = this.root) {
+        if (!curr) {
+            this.root = new BSTNode(newVal);
+        }
+        if (curr.data < newVal){
+            if(!curr.right){
+                curr.right = new BSTNode(newVal);
+                return;
+            }
+            return this.insertRecursive(newVal, curr.right);
+        }
+        else if (curr.data > newVal){
+            if (!curr.left){
+                curr.left = new BSTNode(newVal);
+                return;
+            }
+            return this.insertRecursive(newVal, curr.left);
+        }
+        else if (curr.data == newVal) return null;
+    }
   
   
     // HELPER METHOD
@@ -121,8 +162,15 @@ class BSTNode { // TreeNode , node
   threeLevelTree.root.right = new BSTNode(15);
   threeLevelTree.root.right.right = new BSTNode(20);
   threeLevelTree.root.right.left = new BSTNode(13);
+  threeLevelTree.insert(11);
+  threeLevelTree.insert(21);
+  threeLevelTree.insertRecursive(1);
+  threeLevelTree.insertRecursive(9);
   threeLevelTree.print()
-  console.log(threeLevelTree.insert(11));
+  
+  // you can also chain it:
+  // threeLevelTree.insert(3).insert(9).print();
+
   /* fullTree
                       root
                   <-- 25 -->
