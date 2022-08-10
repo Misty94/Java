@@ -20,6 +20,7 @@
 					<th class="text-center">Expense</th>
 					<th class="text-center">Vendor</th>
 					<th class="text-center">Amount</th>
+					<th class="text-center">Actions</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -28,6 +29,7 @@
 					<td class="text-center"><c:out value="${expense.expense }" /></td>
 					<td class="text-center"><c:out value="${expense.vendor }" /></td>
 					<td class="text-center">$<c:out value="${expense.amount }" /></td>
+					<td class="text-center"><a href="/expenses/edit/<c:out value="${expense.id }"/>">edit</a></td>
 				</tr>
 				</c:forEach>
 			</tbody>
