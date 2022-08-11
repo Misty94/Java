@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+#container{
+	display: flex;
+	width: 900px;
+}
+
+.col-left{
+	flex: 1;
+	padding-left: 50px;
+	font-size: 1.1rem;
+}
+
+.col-right{
+	flex: 2;
+	padding-left: 10px;
+	font-size: 1.1rem; 
+}

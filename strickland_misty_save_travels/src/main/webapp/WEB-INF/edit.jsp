@@ -9,7 +9,6 @@
 	<meta charset="UTF-8">
     <title>Edit Expenses</title>
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/main.css"> <!-- change to match your file/naming structure -->
 </head>
 <body>
 	<div class="mx-5 d-flex justify-content-between align-items-center">
