@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#container{
+	margin: 25px;
+	font-family: Georgia;
+}
+
+#optional{
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding-top: 20px;
+}
+
+#red{
+	color: crimson;
+}
+
+#green{
+	color: seagreen;
+}
+
+span{
+	color: darkorchid;
+}
+
+#thoughts{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 500px;
+	margin-top: 30px;
+	padding-top: 5px;
+}
+
+h4{
+	padding-top: 10px;
+}
+
+button{
+	margin-top: 10px;
+	margin-left: 450px;
+}
+
+a:first-of-type{
+	margin-right: 50px;
+}

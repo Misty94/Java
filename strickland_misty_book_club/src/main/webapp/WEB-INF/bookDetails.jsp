@@ -9,17 +9,27 @@
 	<meta charset="UTF-8">
 	<title><c:out value="${book.title }"/> Details</title>
 	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/details.css">
 </head>
 <body>
-	<div class="w-75 p-3">
+	<div id="container">
 		<div class="d-flex justify-content-between">
-			<h1 class="my-2 px-3"><c:out value="${book.title }"/></h1>
+			<h1><c:out value="${book.title }"/></h1>
 			<a href="/books" class="my-2 pe-5">back to the shelves</a>
 		</div>
-		<div class="w-75 p-3">
-			<h4 class="ms-5">Here are <c:out value="${book.user.name }"/>'s thoughts:</h4>
-			<p class="ms-5 pt-5"><c:out value="${book.thoughts }"/></p>
+		<div>
+			<c:if test="${userId == book.user.id }">
+				<p id="optional"><span id="red"><c:out value="${book.user.name }"/></span> read <span><c:out 				value="${book.title }"/></span> by <span id="green"><c:out value="${book.author }"/></span>.</p>
+			</c:if>
+			<h4>Here are <c:out value="${book.user.name }"/>'s thoughts:</h4>
+		</div>
+		<div id="thoughts">
+			<p><c:out value="${book.thoughts }"/></p>
+		</div>
+		<div>
+			<c:if test="${userId == book.user.id }">
+				<a href="/books/${book.id }/edit"><button type="submit" class="btn btn-warning">Edit</button></a> 
+			</c:if>
 		</div>
 	</div>
 </body>
