@@ -53,6 +53,7 @@ public class BookService {
 	
 	// Book Broker
 	
+	// Set the User as the Borrower and save the Book to that Borrower
 	public void createBorrower(Long bookId, Long userId) {
 		User user = userService.findById(userId);
 		Book book = this.oneBook(bookId);
@@ -60,26 +61,27 @@ public class BookService {
 		bookRepo.save(book);
 	}
 	
+	// Set the Borrower of a Book to null
 	public void returnBook(Long bookId) {
 		Book book = this.oneBook(bookId);
 		book.setBorrower(null);
 		bookRepo.save(book);
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// Ideas that were not right
+	
 //	public List<Book> availbleBooks(User user){
 //		return bookRepo.findByBorrowerId(null);
 //	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	// Set a User to borrow a Book (making user the borrower)
 //	public void createBorrower(Book book, User user) {

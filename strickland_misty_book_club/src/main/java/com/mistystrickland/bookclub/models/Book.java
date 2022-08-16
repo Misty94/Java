@@ -46,7 +46,7 @@ public class Book {
 	private User user; // mappedBy on your other model has to be the same as this word & that word has to have _id on the line above
 
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name="borrower_id") // I want to join the table using borrower_id and they will go over to the other and match it with the mappedBy
+	@JoinColumn(name="borrower_id") // I want to join the table using borrower_id and they will go over to the other model and match it with the mappedBy
 	private User borrower;
 	
 	// Constructors

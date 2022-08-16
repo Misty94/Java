@@ -18,7 +18,7 @@ public interface BookRepository extends CrudRepository<Book, Long> {
 	
 	
 	
-	// ideas for Book Broker that did not work
+	// ideas for Book Broker that were not right
 	// The user_id and the borrower_id is the same id because they are the same person.
 //	List<Book> findByBorrowerId();
 

@@ -93,7 +93,6 @@
 									</form>
 								</td>
 							</c:when>
-							<c:otherwise></c:otherwise>
 						</c:choose>	
 					</tr>
 				</c:forEach>

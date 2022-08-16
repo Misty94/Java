@@ -178,10 +178,8 @@ public class HomeController {
 		return "redirect:/books";
 	}
 	
-	
-	
-	
 	// -----------------------BOOK BROKER-------------------------------------
+	
 	@GetMapping("/bookmarket")
 	public String bookMarketPage(Model model, HttpSession session) {
 		if (session.getAttribute("userId") == null ) {
