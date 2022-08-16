@@ -36,6 +36,7 @@
 				<form:textarea path="thoughts" cols="40" rows="3"></form:textarea>
 			</div>
 			<div>
+				<!--We need this to connect the book to the user who is creating it.-->
 				<form:hidden path="user" value="${userId }"></form:hidden>
 			</div>
 			<button type="submit" class="mt-3 btn btn-info">Submit</button>

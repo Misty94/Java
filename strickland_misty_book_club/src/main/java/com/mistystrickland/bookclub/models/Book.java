@@ -45,6 +45,10 @@ public class Book {
 	@JoinColumn(name="user_id")
 	private User user; // mappedBy on your other model has to be the same as this word & that word has to have _id on the line above
 
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="borrower_id") // I want to join the table using borrower_id and they will go over to the other and match it with the mappedBy
+	private User borrower;
+	
 	// Constructors
 	
 	public Book () {}
@@ -107,6 +111,14 @@ public class Book {
 		this.user = user;
 	}
 	
+	public User getBorrower() {
+		return borrower;
+	}
+
+	public void setBorrower(User borrower) {
+		this.borrower = borrower;
+	}
+
 	@PrePersist
 	protected void onCreate() {
 		this.createdAt = new Date();

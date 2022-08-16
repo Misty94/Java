@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -55,7 +56,7 @@ public class HomeController {
 		return "redirect:/books";
 	}
 	
-	@PostMapping("login")
+	@PostMapping("/login")
 	public String processLogin(@Valid @ModelAttribute("newLogin") LoginUser newLogin, BindingResult result, 
 			Model model, HttpSession session) {
 		
@@ -135,6 +136,11 @@ public class HomeController {
 		if (session.getAttribute("userId") == null ) {
 			return "redirect:/";
 		}
+		// Ensure that ONLY the owner of the book can edit that book
+		Book book = bookService.oneBook(id);
+		if (book.getUser().getId() != (Long) session.getAttribute("userId")) {
+			return "redirect:/books";
+		}
 		model.addAttribute("book", bookService.oneBook(id));
 		return "editBook.jsp";
 	}
@@ -147,11 +153,71 @@ public class HomeController {
 		}
 		if (result.hasErrors()) {
 			// model.addAttribute("book", bookService.oneBook(id));
+//			System.out.println(result.getFieldErrors());
 			return "editBook.jsp";
 		} else {
 			bookService.saveBook(book);
 			return "redirect:/books";
 		}
+	}
+	
+	// -----------------------DELETE ONE BOOK-------------------------------------
+	
+	@DeleteMapping("/book/delete/{id}")
+	public String processDelete(@PathVariable("id") Long id, @Valid @ModelAttribute("book") Book book, 
+			BindingResult result, HttpSession session) {
+		if (session.getAttribute("userId") == null ) {
+			return "redirect:/";
+		}
+		// Ensure that ONLY the owner of the book can delete that book ???? I don't think this is needed.
+		Book usersBook = bookService.oneBook(id);
+		if (usersBook.getUser().getId() != (Long) session.getAttribute("userId")) {
+			return "redirect:/books";
+		}
+		bookService.deleteBook(id);
+		return "redirect:/books";
+	}
+	
+	
+	
+	
+	// -----------------------BOOK BROKER-------------------------------------
+	@GetMapping("/bookmarket")
+	public String bookMarketPage(Model model, HttpSession session) {
+		if (session.getAttribute("userId") == null ) {
+			return "redirect:/";
+		}
+		// Cast userId that's in session as Long datatype 
+		Long userId = (Long) session.getAttribute("userId");
+		model.addAttribute("currUser", userService.findById(userId));
+		
+		List<Book> bookList = bookService.allBooks();
+		model.addAttribute("bookList", bookList);
+		
+		return "bookMarket.jsp";
+	}
+	
+	// -----------------------BORROW BOOK-------------------------------------
+	
+	@PutMapping("/book/borrow/{id}")
+	public String borrowBook(@PathVariable("id") Long bookId, HttpSession session) {
+		if (session.getAttribute("userId") == null ) {
+			return "redirect:/";
+		}
+		Long userId = (Long) session.getAttribute("userId");
+		bookService.createBorrower(bookId, userId);
+		return "redirect:/bookmarket";
+	}
+	
+	// -----------------------RETURN BOOK-------------------------------------
+	
+	@PutMapping("/book/return/{id}")
+	public String returnBook(@PathVariable("id") Long bookId, HttpSession session) {
+		if (session.getAttribute("userId") == null ) {
+			return "redirect:/";
+		}
+		bookService.returnBook(bookId);
+		return "redirect:/bookmarket";
 	}
 	
 }

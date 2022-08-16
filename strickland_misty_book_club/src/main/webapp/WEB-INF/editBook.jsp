@@ -42,5 +42,9 @@
 			<button type="submit" class="mt-3 btn btn-info">Submit</button>
 		</form:form>
 	</div>
+	<form action="/book/delete/${book.id }" method="POST">
+		<input type="hidden" name="_method" value="delete" />
+		<button type="submit" class="btn btn-danger mt-5 ms-5">Delete</button>
+	</form>
 </body>
 </html>

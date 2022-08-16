@@ -19,7 +19,7 @@
 		</div>
 		<div>
 			<c:if test="${userId == book.user.id }">
-				<p id="optional"><span id="red"><c:out value="${book.user.name }"/></span> read <span><c:out 				value="${book.title }"/></span> by <span id="green"><c:out value="${book.author }"/></span>.</p>
+				<p id="optional"><span id="red"><c:out value="${book.user.name }"/></span> read <span><c:out value="${book.title }"/></span> by <span id="green"><c:out value="${book.author }"/></span>.</p>
 			</c:if>
 			<h4>Here are <c:out value="${book.user.name }"/>'s thoughts:</h4>
 		</div>

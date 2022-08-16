@@ -45,12 +45,15 @@ public class User {
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date createdAt;
-	
+
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date updatedAt;
 	
 	@OneToMany(mappedBy="user", fetch = FetchType.LAZY)
 	private List<Book> books;
+	
+	@OneToMany(mappedBy="borrower", fetch = FetchType.LAZY)
+	private List<Book> borrowedBooks;
 	
 	// Constructors 
 	
@@ -120,6 +123,14 @@ public class User {
 
 	public void setBooks(List<Book> books) {
 		this.books = books;
+	}
+	
+	public List<Book> getBorrowedBooks() {
+		return borrowedBooks;
+	}
+
+	public void setBorrowedBooks(List<Book> borrowedBooks) {
+		this.borrowedBooks = borrowedBooks;
 	}
 
 	@PrePersist
