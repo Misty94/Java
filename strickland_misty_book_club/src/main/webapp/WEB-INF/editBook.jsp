@@ -39,6 +39,9 @@
 			<div>
 				<form:hidden path="user" value="${userId }"></form:hidden>
 			</div>
+			<c:if test="${book.borrower.id != null }">
+				<form:hidden path="borrower" value="${borrowerId }"></form:hidden>
+			</c:if>
 			<button type="submit" class="mt-3 btn btn-info">Submit</button>
 		</form:form>
 	</div>
