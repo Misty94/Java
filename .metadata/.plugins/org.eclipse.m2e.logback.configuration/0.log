@@ -8686,3 +8686,6 @@ Caused by: java.lang.Exception: Resource '/strickland_misty_login_reg/pom.xml' d
 2022-08-16 10:51:14,508 [Worker-345: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-08-16 10:51:14,508 [Worker-345: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Misty\Desktop\java\strickland_misty_project_manager\src\test\resources
 2022-08-16 10:51:14,508 [Worker-345: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of strickland_misty_project_manager
+2022-08-16 10:51:14,527 [Worker-345: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for strickland_misty_project_manager
+2022-08-16 10:51:14,573 [Worker-345: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 10:51:14,573 [Worker-345: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
