@@ -42,7 +42,7 @@
 							<td><c:out value="${book.user.name }"/></td>
 						</c:when>
 					</c:choose>
-					<c:if test="${userId != book.user.id }">
+					<c:if test="${userId != book.user.id && book.borrower.id == null }">
 						<td>
 							<form action="/book/borrow/${book.id }" method="POST">
 								<input type="hidden" name="_method" value="put" />
@@ -50,7 +50,7 @@
 							</form>
 						</td>
 					</c:if>
-					<c:if test="${userId == book.user.id }">
+					<c:if test="${userId == book.user.id && book.borrower.id == null }">
 						<td>
 							<a href="/books/${book.id }/edit"><button type="submit" class="btn btn-warning">Edit</button></a> 
 							<form action="/book/delete/${book.id }" method="POST" class="d-inline">
