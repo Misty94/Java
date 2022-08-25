@@ -11,5 +11,38 @@
         <input type="text" name="" id="">
         <option value=""></option>
     </form>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta eveniet assumenda deleniti animi nobis laudantium. Distinctio eum vero placeat corporis sed, rem libero quis, doloremque commodi, tenetur modi voluptates!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique officia obcaecati eaque eligendi incidunt illo exercitationem, quaerat dolorem cumque maiores corrupti placeat labore sapiente consequuntur dolorum provident nesciunt saepe.
+    Perspiciatis architecto laboriosam doloremque cumque ut veniam enim, recusandae a excepturi optio unde in voluptates autem vitae ratione! Voluptatem quaerat voluptate explicabo obcaecati voluptatibus commodi cumque illo at hic in.
+    Numquam nulla ut maiores nisi sapiente sequi unde similique quidem, natus nemo quasi aliquid ad quas esse obcaecati cumque dolorem id. Ullam voluptate in voluptates, omnis laudantium a facere vero.
+    Quis ullam temporibus doloremque totam tenetur expedita reiciendis. Impedit ea, corporis, aliquam ducimus molestiae, dolor amet iste fuga harum ad quasi! Provident placeat ipsa excepturi harum non, officiis atque quia.
+    Obcaecati inventore fugiat natus harum quidem omnis voluptatum ab atque laudantium eius ut eos praesentium suscipit fuga enim sint, esse sunt! Quaerat dolore esse eum temporibus ratione quisquam minima vitae!</p>
+
+
+    <div class="d-flex justify-content-start">
+        <div class="border border-dark w-25 p-3 me-5">
+            <c:forEach var="myJournal" items="${journals }">
+            <c:choose>
+                <c:when test="${userId == myJournal.user.id }">
+                    <a href="/journal/${myJournal.id }"><button type="submit" class="btn btn-info mt-2">${myJournal.title }</button></a>
+                </c:when>
+            </c:choose>
+            </c:forEach>
+        </div>
+        <div class="border border-dark w-25 p-3">
+            <c:forEach var="myNotes" items="${notes }">
+            <c:choose>
+                <c:when test="${userId == myNotes.user.id }">
+                    <a href="/note/${myNotes.id }"><button type="submit" class="btn btn-info mt-2">${myNotes.title }</button></a>
+                </c:when>
+            </c:choose>
+            </c:forEach>
+        </div>
+    </div>
+    <div>
+        <a href="/journal/new"><button type="submit" class="btn btn-primary mt-3 mx-3">Create a New Journal Entry!</button></a>
+        <a href="/note/new"><button type="submit" class="btn btn-primary mt-3 ms-5">Create a New Note!</button></a>
+    </div>
+</div>
 </body>
 </html>
