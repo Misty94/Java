@@ -9,9 +9,10 @@ body{
     background-image: linear-gradient(to bottom, grey, white /* 50% */);
     border: 5px solid black;
     border-bottom: 5px;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
-    align-items: flex-end;
+    align-items:baseline;
+    text-indent: 50px;
 }
 a:first-of-type{
     font-weight: bold;
